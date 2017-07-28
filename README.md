@@ -5,4 +5,4 @@
 
 思想来源于MIT changing place Lab （IRA Winder）
 
-需要添加addon[ofxopenCv]
+需要添加addon [ofxopenCv]
