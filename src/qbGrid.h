@@ -26,6 +26,8 @@ public:
 
 	virtual ~qbGrid() {}
 
+
+	//--------------------------------------------------------------
 	void setup() {
 		cellGap = 9.0 / 596.0 * gridWidth;
 		cellWidth = (gridWidth - (u + 1) * cellGap) / u;
@@ -43,11 +45,14 @@ public:
 		cout << quadHeight << "\n";
 	}
 
-	// 更新小方格的颜色，建立多维数组quadValue[i][j][k][l][r:g:b:h:s:v]
-	void update() {
 
+	//--------------------------------------------------------------
+	void update() {
+		// 更新小方格的颜色，建立多维数组quadValue[i][j][k][l][r:g:b:h:s:v]
 	}
 
+
+	//--------------------------------------------------------------
 	void draw(float px, float py) {
 		// 画网格外框
 		ofSetColor(0, 0, 255);

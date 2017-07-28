@@ -28,7 +28,7 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-
+	videoCapture.keyPressed(key);
 }
 
 //--------------------------------------------------------------
@@ -48,7 +48,7 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-
+	videoCapture.mousePressed(x, y, button);
 }
 
 //--------------------------------------------------------------
