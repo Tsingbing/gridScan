@@ -4,3 +4,5 @@
 利用C++ openframework来建立视频采集系统
 
 思想来源于MIT changing place Lab （IRA Winder）
+
+需要添加addon[ofxopenCv]
