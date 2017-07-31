@@ -9,9 +9,9 @@ qbVideoCapture videoCapture;
 void ofApp::setup(){
 	ofBackground(100, 100, 100);	
 
-	// 设置网格个数，大小等参数
-	grid.setup(); 
 	videoCapture.setup();
+	// 设置网格个数，大小等参数
+	grid.setup(videoCapture);
 }
 
 //--------------------------------------------------------------
@@ -21,6 +21,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+
 	// 在（22，162）的位置绘画网格
 	videoCapture.draw();
 	grid.draw(22,162);
