@@ -136,7 +136,7 @@ public:
 				ofPopMatrix();         // recall the pushed coordinate position
 			}
 		}
-		readPixelsFromVideoCapture(px, py);
+
 	}
 	
 private:
